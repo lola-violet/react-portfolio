@@ -1,11 +1,11 @@
 import React from 'react';
+import '../styles/header.css';
 
 
 export default function Header({ currentPage, handlePageChange }) {
     return (
-        <header className="box">
-            <h1>Lola Applegate</h1>
-            <ul className="nav nav-tabs justify-content-end">
+        <div className="container-fluid custom-head justify-content-end">
+            <ul className="nav">
                 <li className="nav-item">
                     <a href="#about"
                         onClick={() => handlePageChange('About')}
@@ -25,9 +25,9 @@ export default function Header({ currentPage, handlePageChange }) {
                     > Contact </a>
                 </li>
                 <li className="nav-item">
-                    <a href="../../public/Lola_Applegate_Resume.pdf" target="_blank" className="nav-link"> Resume </a>
+                    <a href='public/lola_applegate_resume.pdf' target="_blank" className="nav-link"> Resume </a>
                 </li>
             </ul>
-        </header>
+        </div>
     )
 }
