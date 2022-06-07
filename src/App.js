@@ -1,13 +1,14 @@
-import './App.css';
-import Navbar from './components/Navbar'
+import React from 'react';
+import PortfolioContainer from './components/PortfolioContainer';
+import Footer from './components/Footer';
 
 function App() {
-  return (
-    <div className="App">
-      <h1>YUUp</h1>
-      <Navbar />
-    </div>
-  );
+  return(
+    <>
+      <PortfolioContainer />
+      <Footer />
+    </>
+  )
 }
 
 export default App;
