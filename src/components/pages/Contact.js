@@ -21,7 +21,7 @@ function Contact() {
     
     const handleFormSubmit = (e) => {
         e.preventDefault();
-        alert(`Hi ${name}, thanks for your message. I'll get back to you via the email you provided: ${email}. Your message: ${message}`);
+        alert(`Hi ${name}, thanks for your message! Email provided: ${email}. Message: ${message}`);
         setName('');
         setEmail('');
         setMessage('');
@@ -32,7 +32,7 @@ function Contact() {
             <h1 className='pageHead'>Contact Me</h1>
             <form className="form">
                 <input
-                    className='form-control'
+                    className='form-control custom-form'
                     value={name}
                     name="name"
                     onChange={handleInputChange}
@@ -40,7 +40,7 @@ function Contact() {
                     placeholder="Name"
                 />
                 <input
-                    className='form-control'
+                    className='form-control custom-form'
                     value={email}
                     name="email"
                     onChange={handleInputChange}
@@ -48,15 +48,16 @@ function Contact() {
                     placeholder="Email"
                 />
                 <textarea
-                    className='form-control'
+                    className='form-control custom-form'
+                    rows="3"
                     value={message}
                     name="message"
                     onChange={handleInputChange}
                     placeholder="Message"
                 />
-                <br></br>
+                {/* <br></br> */}
                 <button 
-                    className='btn'
+                    className='btn custom-btn'
                     type="button" 
                     onClick={handleFormSubmit}>
                     Submit

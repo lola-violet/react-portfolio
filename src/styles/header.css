@@ -5,10 +5,23 @@
     padding-bottom: 10px;
 }
 
-.custom-navlink a {
+.custom-navlink {
     font-family: 'Archivo', sans-serif;
     padding: 8px 12px 3px 12px !important;
     margin: 0px 12px 10px 12px;
     color: white;
     /* border-bottom: 1px solid white; */
+}
+
+.custom-navlink:hover{
+    color: rgb(173, 224, 253);
+    font-weight: bolder;
+}
+
+.custom-navlink:after {
+    color: rgb(27, 214, 251);
+}
+
+.nav-active {
+    color: rgb(27, 214, 251);
 }
