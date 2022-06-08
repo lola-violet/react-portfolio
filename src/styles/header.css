@@ -1,4 +1,14 @@
 .custom-head {
     background-color: black !important;
     display: flex;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.custom-navlink a {
+    font-family: 'Archivo', sans-serif;
+    padding: 8px 12px 3px 12px !important;
+    margin: 0px 12px 10px 12px;
+    color: white;
+    /* border-bottom: 1px solid white; */
 }

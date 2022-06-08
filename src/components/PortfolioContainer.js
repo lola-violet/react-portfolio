@@ -3,6 +3,7 @@ import Header from './Header';
 import About from './pages/About';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
+import Jumbo from './Jumbo';
 
 
 export default function PortfolioContainer() {
@@ -25,6 +26,7 @@ export default function PortfolioContainer() {
   return (
     <>
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
+      <Jumbo />
       {renderPage()}
     </>
   );
