@@ -1,6 +1,7 @@
 #custom-jumbo {
     background-image: url(../../public/images/pawel-czerwinski-slJUHpQEC0k-unsplash.jpg);
-    min-height: 200px;
+    padding-top: 60px;
+    padding-bottom: 30px;
 }
 
 #custom-jumbo-text {
