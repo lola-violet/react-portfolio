@@ -4,6 +4,7 @@ import About from './pages/About';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import Jumbo from './Jumbo';
+import 'bootstrap';
 
 
 export default function PortfolioContainer() {

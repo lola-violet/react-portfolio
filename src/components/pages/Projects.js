@@ -10,7 +10,8 @@ import weatherDash from '../../images/weather-dash.png';
 
 export default function Projects() {
     return (
-        <div className='container mt-5'>
+        <div className='container'>
+            <h1 className='pageHead'>Projects</h1>
             <div className='d-flex flex-wrap justify-content-evenly'>
                 <div className='custom-card card d-flex col-10 col-md-8 col-lg-4 border border-white mx-1 mb-5'>
                     <img src={byobackpack} alt='BYO Backpack Logo' className='card-img-top img-fluid' />

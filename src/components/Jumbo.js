@@ -1,4 +1,5 @@
 import React from 'react';
+import 'bootstrap';
 import '../styles/jumbo.css';
 
 export default function Jumbo() {

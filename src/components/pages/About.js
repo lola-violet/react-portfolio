@@ -1,5 +1,6 @@
 // About
 import React from 'react';
+import 'bootstrap';
 import '../../styles/about.css';
 
 export default function About() {
