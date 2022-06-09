@@ -28,7 +28,7 @@ export default function Header({ currentPage, handlePageChange }) {
                 <li className="nav-item">
                     <a href="#resume"
                         onClick={() => handlePageChange('Resume')}
-                        className={currentPage === 'Contact' ? 'nav-link custom-navlink nav-active' : 'nav-link custom-navlink'}
+                        className={currentPage === 'Resume' ? 'nav-link custom-navlink nav-active' : 'nav-link custom-navlink'}
                     > Resume </a>
                 </li>
                 {/* <li className="nav-item">
