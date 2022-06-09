@@ -26,8 +26,8 @@ export default function Projects() {
                         <span className='custom-tech'>React | MySQL | Node.js</span>
                     </div>
                     <div className='card-body d-flex justify-content-center'>
-                        <a href='#' target="_blank" rel="noreferrer" className='custom-link card-link'>Application</a>
-                        <a href='#' target="_blank" rel="noreferrer" className='custom-link card-link'>Repository</a>
+                        <a href='/' target="_blank" rel="noreferrer" className='custom-link card-link'>Application</a>
+                        <a href='https://github.com/jittel/floppy-bird-frontend' target="_blank" rel="noreferrer" className='custom-link card-link'>Repository</a>
                     </div>
                 </div>
                 <div className='custom-card card d-flex col-10 col-md-8 col-lg-4 border border-white mx-1 mb-5'>

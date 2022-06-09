@@ -3,6 +3,7 @@ import Header from './Header';
 import About from './pages/About';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
+import Resume from './pages/Resume';
 import Jumbo from './Jumbo';
 import 'bootstrap';
 
@@ -19,6 +20,9 @@ export default function PortfolioContainer() {
     }
     if (currentPage === 'Contact') {
       return <Contact />;
+    }
+    if (currentPage === 'Resume') {
+      return <Resume />;
     }
   };
 

@@ -1,0 +1,20 @@
+.skillList {
+    text-align: center;
+}
+
+.resume-link {
+    padding: 5px 15px;
+    margin-top: 20px;
+    border: 2px solid white;
+    border-radius: 10%;
+    color: white;
+    text-decoration: none;
+    /* flex-grow: -1; */
+    font-weight: bold;
+    height: min-content;
+}
+
+.resume-link:hover {
+    background-color: white;
+    color: black;
+}
