@@ -14,7 +14,7 @@ A professional portfolio created with React, displaying my brand statement, proj
 ---
 
 ## Deployed Application
-[React_Portfolio]()
+[React_Portfolio](https://lolaviolet-dev.herokuapp.com/)
 
 ---
 
@@ -23,8 +23,10 @@ The navbar contains links to each page. On pageload, the default page is About M
 
 ---
 
-![Port]()
-![Port]()
+![About_Me](./screenshots/about.png)
+![Projects](./screenshots/projects.png)
+![Contact](./screenshots/contact.png)
+![Resume](./screenshots/resume.png)
 
 ---
 
