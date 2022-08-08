@@ -9,8 +9,6 @@ import inspoJeopardy from '../../images/inspo-jeopardy.png';
 import mongoSocialApi from '../../images/mongo_social_api.png';
 import teamProfileGen from '../../images/team_profile_gen.png';
 
-
-
 export default function Projects() {
     return (
         <div className='container'>
