@@ -4,8 +4,8 @@ import 'bootstrap';
 import '../../styles/projects.css';
 import byobackpack from '../../images/byo_backpack.png';
 import inspoJeopardy from '../../images/inspo-jeopardy.png';
-import weatherDash from '../../images/weather-dash.png';
-import floppyBird from '../../images/floppy_bird.png';
+// import weatherDash from '../../images/weather-dash.png';
+// import floppyBird from '../../images/floppy_bird.png';
 import mongoSocialApi from '../../images/mongo_social_api.png';
 import teamProfileGen from '../../images/team_profile_gen.png';
 
@@ -16,7 +16,7 @@ export default function Projects() {
         <div className='container'>
             <h1 className='pjpageHead'>Projects</h1>
             <div className='d-flex flex-wrap justify-content-evenly'>
-                <div className='custom-card card d-flex col-10 col-md-8 col-lg-4 border border-white mx-1 mb-5'>
+                {/* <div className='custom-card card d-flex col-10 col-md-8 col-lg-4 border border-white mx-1 mb-5'>
                     <img src={floppyBird} alt='Floppy Bird Logo' className='card-img-top img-fluid' />
                     <div className='card-body'>
                         <h3 className='card-title custom-title'>Floppy Bird</h3>
@@ -29,7 +29,7 @@ export default function Projects() {
                         <a href='/' target="_blank" rel="noreferrer" className='custom-link card-link'>Application</a>
                         <a href='https://github.com/jittel/floppy-bird-frontend' target="_blank" rel="noreferrer" className='custom-link card-link'>Repository</a>
                     </div>
-                </div>
+                </div> */}
                 <div className='custom-card card d-flex col-10 col-md-8 col-lg-4 border border-white mx-1 mb-5'>
                     <img src={byobackpack} alt='BYO Backpack Logo' className='card-img-top img-fluid' />
                     <div className='card-body'>
@@ -58,7 +58,7 @@ export default function Projects() {
                         <a href='https://github.com/lola-violet/inspirational-jeopardy' target="_blank" rel="noreferrer" className='custom-link card-link'>Repository</a>
                     </div>
                 </div>
-                <div className='custom-card card d-flex col-10 col-md-8 col-lg-4 border border-white mx-1 mb-5'>
+                {/* <div className='custom-card card d-flex col-10 col-md-8 col-lg-4 border border-white mx-1 mb-5'>
                     <img src={weatherDash} alt='Weather Dashboard Logo' className='card-img-top img-fluid' />
                     <div className='card-body'>
                         <h3 className='card-title custom-title'>Weather Dashboard</h3>
@@ -71,7 +71,7 @@ export default function Projects() {
                         <a href='https://lola-violet.github.io/weather-dashboard/' target="_blank" rel="noreferrer" className='custom-link card-link'>Application</a>
                         <a href='https://github.com/lola-violet/weather-dashboard' target="_blank" rel="noreferrer" className='custom-link card-link'>Repository</a>
                     </div>
-                </div>
+                </div> */}
                 <div className='custom-card card d-flex col-10 col-md-8 col-lg-4 border border-white mx-1 mb-5'>
                     <img src={mongoSocialApi} alt='MongoDB Social Network API Logo' className='card-img-top img-fluid' />
                     <div className='card-body'>

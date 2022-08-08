@@ -14,14 +14,14 @@
 }
 
 .custom-navlink:hover{
-    color: rgb(173, 224, 253);
+    color: rgb(173, 224, 253) !important;
     font-weight: bolder;
 }
 
 .custom-navlink:after {
-    color: rgb(27, 214, 251);
+    color: rgb(27, 214, 251) !important;
 }
 
 .nav-active {
-    color: rgb(27, 214, 251);
+    color: rgb(27, 214, 251) !important;
 }
