@@ -15,7 +15,7 @@ export default function About() {
                     <p className='skillList'>Node.js | Inquirer | Handlebars | React | Material UI | Express.js | MySQL | Sequelize | Insomnia | MongoDB | Mongoose | MongoDB Compass</p>
                     <div className='d-flex justify-content-center'>
                         {/* <a href={resume} target="_blank" rel="noreferrer" className='resume-link card-link'>View Full Resume</a> */}
-                        <a className='resume-link card-link' href="https://drive.google.com/file/d/1oSPLNqU-zbrf4RIw08C6Wdgc70HUG_uf/view" target="_blank" rel="noreferrer">View Full Resume</a>
+                        <a className='resume-link card-link' href="https://drive.google.com/file/d/12ng51ve0BuHq6X5NT2NLDyEfg1_O1uHR/view" target="_blank" rel="noreferrer">View Full Resume</a>
                     </div>
                 </div>
             </div>
